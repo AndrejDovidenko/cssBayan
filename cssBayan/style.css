@@ -11,6 +11,8 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   color: #000;
+  background-image: url("./img/575179fc86d2615516448288.jpg");
+  background-size: 100vw 200rem;
 }
 
 .container {
@@ -95,6 +97,10 @@ h1 {
 @media (min-width: 821px) {
   html {
     font-size: 16px;
+  }
+
+  .container {
+    max-width: 70vw;
   }
 
   .mem-input:checked ~ .mem-title-img > .mem-img {
