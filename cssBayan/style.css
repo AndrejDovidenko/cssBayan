@@ -90,13 +90,29 @@ h1 {
   height: 90%;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 400px) {
   html {
     font-size: 10px;
   }
 }
 
-@media (min-width: 821px) {
+@media (min-width: 825px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 80vw;
+  }
+
+  .mem-item:hover > .mem-title-img > .mem-img,
+  .mem-input:checked ~ .mem-title-img > .mem-img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
   html {
     font-size: 16px;
   }
